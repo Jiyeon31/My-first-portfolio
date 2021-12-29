@@ -138,7 +138,7 @@ section h2 {
 
 .box-image {
     margin-top: -200px;
-    margin-left: -90px;
+    margin-left: -50px;
     margin-bottom: 200px;
     width: 80%;
     height: 300px;
@@ -149,7 +149,7 @@ section h2 {
 .text-block {
     position: absolute;
     top: -30px;
-    left: -60px;
+    left: -16px;
     background-color: var(--tertiary-color);
     color: black;
     padding: 20px;
