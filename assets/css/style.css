@@ -101,7 +101,7 @@ header nav ul li a {
     color: var(--secondary-color);
     height: 200px;
     border-right: 6px solid black;
-    width: 20%;
+    width: 22%;
 }
 
 section {
@@ -117,7 +117,7 @@ section h2 {
     height: 200px;
     font-size: 18px;
     color: var(--secondary-color);
-    width: 80%;
+    width: 78%;
     padding-left: 30px;
     padding-right: 30px;
     text-align: left;
@@ -139,7 +139,7 @@ section h2 {
 .box-image {
     margin-top: -200px;
     margin-left: -90px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
     width: 80%;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
@@ -162,7 +162,7 @@ section h2 {
 }
 
 .footer {
-    margin: 0 0 100px 0;
+    margin: -180px 0 100px 0;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -170,7 +170,7 @@ section h2 {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 10px 15px 10px 15px;
+    padding: 60px 50px 30px 50px;
     text-decoration: underline;
     text-decoration-color: var(--tertiary-color);
 }
