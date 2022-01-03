@@ -11,12 +11,10 @@
   }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/*applt styles to <header> */
 header {
     padding: 15px 35px 15px 0px;
     background-color: black;
@@ -95,19 +93,20 @@ header nav ul li a {
 .profile {
     height: 200px;
     width: 200px;
-    margin: -20px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .section-title {
     font-size: 40px;
-    margin: -20px 0 0 0;
+    margin: 50px 0 0 0;
     float: left;
     text-align: left;
     display: flex;
     color: var(--secondary-color);
     height: 200px;
-    border-right: 6px solid black;
+    border-right: 6px solid black;  
     width: 22%;
+    padding: 0;
 }
 
 section {
@@ -129,15 +128,29 @@ section h2 {
     text-align: left;
 }
 
-.runbuddy {
-    background-image: url("../images/runbuddy.jpg");
-    background-size: cover;
-    background-position: right;
+.flex-row3 {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    font-size: 18px;
+    color: var(--secondary-color);
+    width: 100%;
+    padding-left: 330px;
+    text-align: left;
+}
+
+.name {
+    margin: 50px 0 0 20px;
+}
+
+.profileme {
+    color: var(--tertiary-color);
+    margin: 55px 0 0 50px;
 }
 
 .content {
-    width: 100%;
-    margin: 0 0 0 300px;
+    margin: 0;
     display: inline-block;
     position: relative;
 }
@@ -145,8 +158,8 @@ section h2 {
 .box-image {
     margin-top: -200px;
     margin-left: -50px;
-    margin-bottom: 200px;
-    width: 80%;
+    margin-bottom: 250px;
+    width: 100%;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     border: 4px solid var(--tertiary-color);
@@ -155,20 +168,37 @@ section h2 {
 .text-block {
     position: absolute;
     top: -30px;
-    left: -16px;
+    margin-left: -46px;
     background-color: var(--tertiary-color);
     color: black;
-    padding: 20px;
+    padding: 0;
     font-size: 30px;
-    line-height: 0.7em;
+    line-height: 0.5em;
+    padding: 15px;
 }
 
 .text-block p {
     font-size: 18px;
+    text-align: center;
+}
+
+.section-title2 {
+    font-size: 40px;
+    margin: -50px 0 0 0;
+    float: left;
+    text-align: left;
+    display: flex;
+    color: var(--secondary-color);
+    height: 150px;
+    border-right: 6px solid black;  
+    width: 22%;
+    padding: 0;
 }
 
 .footer {
-    margin: -180px 0 100px 0;
+    width: 78%;
+    padding: 0 0 30px 20px;
+    margin: -180px 0 0 0;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -176,7 +206,252 @@ section h2 {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 60px 50px 30px 50px;
     text-decoration: underline;
     text-decoration-color: var(--tertiary-color);
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header h1 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header nav ul li a {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero-cta h2 {
+        margin: 50px 0 0 0;
+    }
+    
+    .profile {
+        margin: 50px 0 0 0;
+        padding: 0;
+    }
+    
+    .section-title {
+        margin: 50px 0 0 0;
+    }
+
+    .flex-row {
+        margin-bottom: 200px;
+    }
+
+    .text-block {
+        height: 40%;
+        width: 30%;
+        margin: -50px 0 0 -100px;
+    }
+
+    .box-image {
+        height: 100%;
+        width: 100%;
+        margin: -200px 0 200px -100px;
+    }
+
+    .profileme {
+        height: 200px;
+        width: 50%;
+        justify-content: center;
+        position: absolute;
+        text-align: left;
+        padding: 220px 0 0 0;
+        margin: 50px 0 0 -50px;
+    }
+
+    .name {
+        height: 50%;
+        width: 50%;
+    }
+
+    .section-title2 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer {
+        margin: -200px 0 0 0;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header h1 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header nav ul li a {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero-cta h2 {
+        margin: 50px 0 0 0;
+    }
+    
+    .profile {
+        margin: 50px 0 0 0;
+        padding: 0;
+    }
+    
+    .section-title {
+        margin: 50px 0 0 0;
+    }
+
+    .flex-row {
+        margin-bottom: 200px;
+    }
+
+    .text-block {
+        height: 40%;
+        width: 40%;
+        margin: -50px 0 0 -100px;
+    }
+
+    .box-image {
+        height: 100%;
+        width: 100%;
+        margin: -200px 0 200px -100px;
+    }
+
+    .profileme {
+        height: 200px;
+        width: 50%;
+        justify-content: center;
+        position: absolute;
+        text-align: left;
+        padding: 220px 0 0 0;
+        margin: 50px 0 0 -50px;
+    }
+
+    .name {
+        height: 50%;
+        width: 50%;
+    }
+
+    .section-title2 {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+    }
+    
+    .footer {
+        margin: -200px 0 0 0;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header h1 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    .hero {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero-cta h2 {
+        margin: 50px 0 0 0;
+    }
+    
+    .profile {
+        margin: 50px 0 0 0;
+        padding: 0;
+        height: 50%;
+        width: 50%;
+    }
+    
+    .section-title {
+        margin: 50px 0 0 0;
+        font-size: 20px;
+        height: 100px;
+    }
+
+    .flex-row {
+        margin-bottom: 200px;
+    }
+
+    .text-block {
+        height: 30%;
+        width: 30%;
+        margin: 50px 0 0 -200px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .text-block p {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .box-image {
+        height: 200px;
+        width: 300px;
+        margin: -100px 0 0 -200px;
+    }
+
+    .profileme {
+        height: 200px;
+        width: 50%;
+        justify-content: center;
+        position: absolute;
+        text-align: left;
+        padding: 100px 0 0 0;
+        margin: 50px 0 0 -50px;
+        font-size: 10px;
+    }
+
+    .name {
+        font-size: 10px;
+    }
+
+    .section-title2 {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+    
+    .footer {
+        margin: -100px 0 0 0;
+        width: 50%;
+    }
 }
