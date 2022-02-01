@@ -9,7 +9,7 @@ A website that offers my portfolio and resume
 * Bootstrap
 
 ## Website
-<a href="https:/Jiyeon31.github.io/my-first-portfolio"></a>
+"https:/Jiyeon31.github.io/my-first-portfolio"
 
 ## Contribution
 Made with ❤️ by Jiyeon
