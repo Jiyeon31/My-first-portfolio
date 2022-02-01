@@ -155,13 +155,13 @@ section h2 {
 .box-image {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     border: 4px solid var(--tertiary-color);
-    width: 80%;
-    height: 80%;
+    width: 400px;
+    height: 200px;
 }
 
 .box-image:hover {
-    width: 100%;
-    height: 100%;
+    width: 420px;
+    height: 220px;
     
 }
 
