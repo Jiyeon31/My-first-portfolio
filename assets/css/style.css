@@ -104,9 +104,17 @@ header nav ul li a {
     display: flex;
     color: var(--secondary-color);
     height: 200px;
-    border-right: 6px solid black;  
-    width: 22%;
     padding: 0;
+}
+
+.container h3 {
+    color: var(--secondary-color);
+    margin: 50px 0 0 0;
+}
+
+.container p {
+    color: var(--secondary-color);
+    margin: 50px 0 0 0;
 }
 
 section {
@@ -118,36 +126,24 @@ section h2 {
 }
 
 .flex-row {
-    display: flex;
-    height: 200px;
     font-size: 18px;
     color: var(--secondary-color);
-    width: 78%;
-    padding-left: 30px;
-    padding-right: 30px;
     text-align: left;
+}
+
+.flew-row h3 {
+    margin: 50px 0 0 20px;
+}
+
+.flew-row p {
+    color: var(--tertiary-color);
+    margin: 55px 0 0 50px;
 }
 
 /*added images with links for works section*/
 .flex-row3 {
-    margin: 0;
-    display: inline-block;
-    position: relative;
     height: 200px;
-    font-size: 18px;
     color: var(--secondary-color);
-    width: 100%;
-    padding-left: 330px;
-    text-align: left;
-}
-
-.name {
-    margin: 50px 0 0 20px;
-}
-
-.profileme {
-    color: var(--tertiary-color);
-    margin: 55px 0 0 50px;
 }
 
 .content {
@@ -157,18 +153,16 @@ section h2 {
 }
 
 .box-image {
-    margin-top: -200px;
-    margin-left: -50px;
-    margin-bottom: 250px;
-    width: 100%;
-    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     border: 4px solid var(--tertiary-color);
+    width: 80%;
+    height: 80%;
 }
 
 .box-image:hover {
-    width: 105%;
-    height: 350px;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .text-block {
@@ -197,14 +191,10 @@ section h2 {
     color: var(--secondary-color);
     height: 150px;
     border-right: 6px solid black;  
-    width: 22%;
     padding: 0;
 }
 
 .footer {
-    width: 78%;
-    padding: 0 0 30px 20px;
-    margin: -180px 0 0 0;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -243,10 +233,6 @@ section h2 {
         margin: 50px 0 0 0;
     }
     
-    .profile {
-        margin: 50px 0 0 0;
-        padding: 0;
-    }
     
     .section-title {
         margin: 50px 0 0 0;
@@ -322,6 +308,8 @@ section h2 {
     }
     
     .profile {
+        width: 200px;
+        height: 200px;
         margin: 50px 0 0 0;
         padding: 0;
     }
